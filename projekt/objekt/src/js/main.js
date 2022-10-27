@@ -23,6 +23,5 @@ window.onload = function () {
   for (i = 0; i < personList.length; i++) {
     person.innerHTML += personList[i].firstname + " ";
     person.innerHTML += personList[i].lastname + " ";
-    console.log(me);
   }
 };
